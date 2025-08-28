@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "agents:prompts": "scripts/process-prompts.ts",
+    "agents:sync": "convai sync --env prod"
+  },
+  "dependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3",
+    "@elevenlabs/convai-cli": "^0.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

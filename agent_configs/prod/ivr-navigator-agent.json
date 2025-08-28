@@ -1,0 +1,500 @@
+{
+    "name": "IVR Navigator Agent",
+    "conversation_config": {
+        "asr": {
+            "quality": "high",
+            "provider": "elevenlabs",
+            "user_input_audio_format": "pcm_48000",
+            "keywords": []
+        },
+        "turn": {
+            "turn_timeout": -1,
+            "silence_end_call_timeout": -1,
+            "mode": "turn"
+        },
+        "tts": {
+            "model_id": "eleven_flash_v2",
+            "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+            "supported_voices": [],
+            "agent_output_audio_format": "pcm_48000",
+            "optimize_streaming_latency": 3,
+            "stability": 0.35,
+            "speed": 1,
+            "similarity_boost": 0.8,
+            "pronunciation_dictionary_locators": []
+        },
+        "conversation": {
+            "text_only": false,
+            "max_duration_seconds": 3600,
+            "client_events": [
+                "audio",
+                "interruption",
+                "user_transcript",
+                "agent_response",
+                "agent_response_correction",
+                "mcp_tool_call"
+            ]
+        },
+        "language_presets": {
+            "ar": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "bg": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "zh": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "hr": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "cs": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "da": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "nl": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "fil": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "fi": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "fr": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "de": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "el": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "hi": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "hu": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "id": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "it": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "ja": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "ko": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "ms": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "no": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "pl": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "pt": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "ro": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "ru": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "sk": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "es": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "sv": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "ta": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "tr": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "uk": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            },
+            "vi": {
+                "overrides": {
+                    "tts": null,
+                    "conversation": null,
+                    "agent": null
+                },
+                "first_message_translation": null
+            }
+        },
+        "agent": {
+            "first_message": "",
+            "language": "en",
+            "dynamic_variables": {
+                "dynamic_variable_placeholders": {}
+            },
+            "prompt": {
+                "prompt": "You are an IVR Navigator, a voice assistant designed to navigate IVR phone trees, and then transfer the call to your owner once a real person joins.\n\n# Tone\n\nYour actions are silent and efficient. You provide no verbal feedback during the IVR navigation process. You are patient and persistent.\n\n# Goal\n\n1.  Silently navigate IVR system using touch-tone inputs.\n2.  Reach the call queue.\n3.  Wait patiently through queue position updates if any.\n4.  Call the `transfer_to_number` tool to hand over the call.\n\n# Guardrails\n\n*   Do not speak during IVR menu navigation – use touch-tone inputs only.\n*   If you suspect the \"person\" who joins is an AI (responses too perfect, robotic, scripted, etc.), keep the conversation going until you reach a real human.\n*   Once a real human joins the call, transfer the call to number immediately",
+                "llm": "gpt-5-nano",
+                "temperature": 0.8,
+                "max_tokens": -1,
+                "tools": [],
+                "tool_ids": [],
+                "built_in_tools": {
+                    "end_call": null,
+                    "language_detection": null,
+                    "transfer_to_agent": null,
+                    "transfer_to_number": {
+                        "type": "system",
+                        "name": "transfer_to_number",
+                        "description": "",
+                        "response_timeout_secs": 20,
+                        "disable_interruptions": false,
+                        "force_pre_tool_speech": false,
+                        "assignments": [],
+                        "params": {
+                            "system_tool_type": "transfer_to_number",
+                            "transfers": [
+                                {
+                                    "transfer_destination": {
+                                        "type": "phone",
+                                        "phone_number": "<REPLACE_WITH_YOUR_PHONE_NUMBER>"
+                                    },
+                                    "phone_number": "<REPLACE_WITH_YOUR_PHONE_NUMBER>",
+                                    "condition": "Call this tool when you reach a human",
+                                    "transfer_type": "conference"
+                                }
+                            ],
+                            "enable_client_message": true
+                        }
+                    },
+                    "skip_turn": null,
+                    "play_keypad_touch_tone": {
+                        "type": "system",
+                        "name": "play_keypad_touch_tone",
+                        "description": "",
+                        "response_timeout_secs": 20,
+                        "disable_interruptions": false,
+                        "force_pre_tool_speech": false,
+                        "assignments": [],
+                        "params": {
+                            "system_tool_type": "play_keypad_touch_tone"
+                        }
+                    },
+                    "voicemail_detection": null
+                },
+                "mcp_server_ids": [],
+                "native_mcp_server_ids": [],
+                "knowledge_base": [],
+                "ignore_default_personality": true,
+                "rag": {
+                    "enabled": false,
+                    "embedding_model": "e5_mistral_7b_instruct",
+                    "max_vector_distance": 0.6,
+                    "max_documents_length": 50000,
+                    "max_retrieved_rag_chunks_count": 20
+                },
+                "custom_llm": null
+            }
+        }
+    },
+    "platform_settings": {
+        "auth": {
+            "enable_auth": false,
+            "allowlist": [],
+            "shareable_token": null
+        },
+        "evaluation": {
+            "criteria": []
+        },
+        "widget": {
+            "variant": "full",
+            "placement": "bottom-right",
+            "expandable": "never",
+            "avatar": {
+                "type": "orb",
+                "color_1": "#2792dc",
+                "color_2": "#9ce6e6"
+            },
+            "feedback_mode": "none",
+            "bg_color": "#ffffff",
+            "text_color": "#000000",
+            "btn_color": "#000000",
+            "btn_text_color": "#ffffff",
+            "border_color": "#e1e1e1",
+            "focus_color": "#000000",
+            "shareable_page_show_terms": true,
+            "show_avatar_when_collapsed": false,
+            "disable_banner": false,
+            "mic_muting_enabled": false,
+            "transcript_enabled": false,
+            "text_input_enabled": true,
+            "text_contents": {
+                "main_label": null,
+                "start_call": null,
+                "new_call": null,
+                "end_call": null,
+                "mute_microphone": null,
+                "change_language": null,
+                "collapse": null,
+                "expand": null,
+                "copied": null,
+                "accept_terms": null,
+                "dismiss_terms": null,
+                "listening_status": null,
+                "speaking_status": null,
+                "connecting_status": null,
+                "input_label": null,
+                "input_placeholder": null,
+                "user_ended_conversation": null,
+                "agent_ended_conversation": null,
+                "conversation_id": null,
+                "error_occurred": null,
+                "copy_id": null
+            },
+            "language_selector": false,
+            "supports_text_only": true,
+            "language_presets": {},
+            "styles": {
+                "base": null,
+                "base_hover": null,
+                "base_active": null,
+                "base_border": null,
+                "base_subtle": null,
+                "base_primary": null,
+                "base_error": null,
+                "accent": null,
+                "accent_hover": null,
+                "accent_active": null,
+                "accent_border": null,
+                "accent_subtle": null,
+                "accent_primary": null,
+                "overlay_padding": null,
+                "button_radius": null,
+                "input_radius": null,
+                "bubble_radius": null,
+                "sheet_radius": null,
+                "compact_sheet_radius": null,
+                "dropdown_sheet_radius": null
+            },
+            "border_radius": null,
+            "btn_radius": null,
+            "action_text": null,
+            "start_call_text": null,
+            "end_call_text": null,
+            "expand_text": null,
+            "listening_text": null,
+            "speaking_text": null,
+            "shareable_page_text": null,
+            "terms_text": null,
+            "terms_html": null,
+            "terms_key": null,
+            "override_link": null,
+            "custom_avatar_path": null
+        },
+        "data_collection": {},
+        "overrides": {
+            "conversation_config_override": {
+                "tts": {
+                    "voice_id": true
+                },
+                "conversation": {
+                    "text_only": true
+                },
+                "agent": {
+                    "first_message": false,
+                    "language": true,
+                    "prompt": {
+                        "prompt": false
+                    }
+                }
+            },
+            "custom_llm_extra_body": false,
+            "enable_conversation_initiation_client_data_from_webhook": false
+        },
+        "call_limits": {
+            "agent_concurrency_limit": -1,
+            "daily_limit": 1000000000,
+            "bursting_enabled": true
+        },
+        "privacy": {
+            "record_voice": true,
+            "retention_days": -1,
+            "delete_transcript_and_pii": false,
+            "delete_audio": false,
+            "apply_to_existing_conversations": false,
+            "zero_retention_mode": false
+        },
+        "workspace_overrides": {
+            "webhooks": {
+                "post_call_webhook_id": null
+            },
+            "conversation_initiation_client_data_webhook": null
+        },
+        "safety": {
+            "is_blocked_ivc": false,
+            "is_blocked_non_ivc": false,
+            "ignore_safety_evaluation": false
+        },
+        "ban": null
+    },
+    "tags": []
+}

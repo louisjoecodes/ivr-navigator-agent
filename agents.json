@@ -1,0 +1,12 @@
+{
+  "agents": [
+    {
+      "name": "ivr_navigator_agent",
+      "environments": {
+        "prod": {
+          "config": "agent_configs/prod/ivr-navigator-agent.json"
+        }
+      }
+    }
+  ]
+}
